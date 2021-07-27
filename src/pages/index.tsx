@@ -4,6 +4,15 @@ import { SubscribeButton } from '../components/SubscribeButton'
 import { stripe } from '../services/stripe';
 import styles from './home.module.scss'
 
+// Client-side => Somente quando página carregar
+// Server-side SSR => Mais processamento
+// Static Site Generation SSG
+
+// Post Blog
+
+// Conteúdo (SSG)
+// Comentários (Clien-Side)
+
 interface HomeProps {
   product: {
     priceId: string;
